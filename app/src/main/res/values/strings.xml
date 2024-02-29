@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidERestaurant</string>
+    <string name="app_show_ingredients">Afficher les ingrédients</string>
+    <string name="app_hide_ingredients">Masquer les ingrédients</string>
+    <string name="app_add_quantity">Ajouter une quantité</string>
+    <string name="app_remove_quantity">Retirer une quantité</string>
+    <string name="app_menu_back">Retourner en arrière</string>
+    <string name="app_menu_cart">Panier</string>
+</resources>
