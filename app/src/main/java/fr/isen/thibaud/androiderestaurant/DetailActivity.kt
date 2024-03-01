@@ -2,6 +2,7 @@ package fr.isen.thibaud.androiderestaurant
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -115,6 +116,7 @@ class DetailActivity : ComponentActivity() {
                                     current(context).add(dish, quantity.intValue, context)
                                     basketItems.clear()
                                     basketItems.addAll(current(context).items)
+                                    Toast.makeText(context, "Ajouté au panier", Toast.LENGTH_SHORT).show()
                                 }
                             }, Modifier.fillMaxWidth()) {
                                 Text(text = "Ajouter au panier")
